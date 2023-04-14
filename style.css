@@ -1,0 +1,501 @@
+*{      
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+
+.clear{
+    clear: both;
+}
+
+/* start navigation bar */
+.navbar{
+    background-color: #232323;
+    padding: 20px 70px;
+}
+
+
+
+
+
+
+.logo img {
+    float: left;
+    width: 130px;
+    padding-left: 25px;
+
+}
+
+
+
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+
+
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav ul li  a:hover{
+    color: teal;
+    transition: 0.5s;
+    padding-right: 15px;
+
+}
+
+.active{
+    color: teal;
+}
+
+/* end navigation bar */
+
+
+/* start header*/
+
+.container-one{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/full-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content-one{
+    width: 500px;
+    color: whitesmoke;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 100px;
+
+}
+
+.content-one h1{
+    margin: 15px 0px;
+    font-size: 70px;
+}
+
+.content-one p{
+    font-size: 21px;
+    line-height: 1.7;
+}
+
+
+.bt-one{
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 15px 0px;
+    border: none;
+    box-shadow: 5px 5px 5px teal;
+}
+
+
+h1:hover{
+    color: teal;
+    transition: 0.5s;
+    padding-left: 50px;
+}
+
+.head:hover{
+    padding-left: 50px;
+    color: teal;
+    transition: 0.5s;
+}
+
+.bt-one{
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+.bt-one:hover{
+    color: teal;
+    transition: 0.5s;
+    
+}
+
+
+/* end header*/  
+
+
+/* start the first section*/
+
+.s-one{
+    background-color: #161616;
+    color: whitesmoke;
+}
+
+.container-two{
+    text-align: center;
+    width: 700px;
+    padding: 70px;
+    line-height: 2;
+    margin: 0 auto;
+}
+
+.container-two h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.container-two h2:hover{
+    color: teal;
+}
+.container-two p{
+    font-size: 18px;
+}
+
+.container-two p:hover{
+    color:teal;
+    transition: 0.5s;
+}
+
+/* end the first section*/  
+
+
+/* start the second section*/
+
+.s-two{
+    background-color: #1d1d1d;
+    padding: 70px;
+    color: whitesmoke;
+}
+
+.image-two{
+    float: left;
+    width: 50%;
+}
+
+.img-two{
+    width: 100%;
+    box-shadow: 5px 5px 5px teal;
+}
+
+.content-two{
+    float: right;
+    width: 50%;
+    padding-left: 50px;
+}
+
+.content-two h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.content-two h2:hover{
+    color: teal;
+    transition: 0.5s;
+}
+
+.content-two p{
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.content-two p:hover{
+    color: teal;
+    transition: 0.5s;
+}
+
+
+hr{
+    border: 1px solid teal;
+    width: 10%;
+    margin-top: 70px ;
+}
+.other{
+    padding-top: 70px;
+}
+
+
+/* end the second section*/ 
+
+
+/* start the fourth section*/
+
+.s-four{
+background-color: #161616;
+color: whitesmoke;
+text-align: center;
+
+}
+
+.container-five{
+    text-align: center;
+}
+
+.container-five h2{
+   padding: 25px 0px;
+}
+
+.container-five h2:hover{
+    color: teal;
+    transition: 0.5s;
+}
+
+.container-five p{
+    padding-bottom: 20px ;
+}
+
+.container-five p:hover{
+    color: teal;
+    transition: 0.5s;
+}
+
+ul {
+    padding-bottom: 25px;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+ul li a:hover{
+    color: teal;
+    transition: 0.5s;
+}
+
+.container-image{
+    width: 100%;
+    text-align: center;
+    padding:  30px 70px;
+    
+}
+
+
+
+.image-three{
+    width:33.3333%;
+    float: left;
+    padding: 15px;
+}
+
+
+.img-three{
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.img-three:hover{
+    box-shadow: 5px 5px 5px 5px teal;
+    transition: 0.5s; 
+}
+
+
+.image-four{
+    width: 33.3333%;
+    float: left;
+    padding: 15px;
+}
+
+.img-four{
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.img-four:hover{
+    box-shadow:  5px 5px 5px 5px teal;
+    transition: 0.5s;
+}
+
+.image-five{
+    width: 33.3333%;
+    float: left;
+    padding: 15px;
+}
+
+.img-five{
+    width: 100%;
+    padding-bottom: 25px;
+    
+}
+
+.img-five:hover{
+    box-shadow: 5px 5px 5px 5px teal;
+    transition: 0.5s;
+}
+
+/* end the fourth section*/  
+
+
+/* start the fifth section */
+
+.s-five{
+    background-color: #1d1d1d;
+    color: whitesmoke;
+}
+
+.s-five{
+    width: 100%;
+}
+
+.cards{
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+}
+
+
+.card-one{
+    background-color: #232323;
+    padding: 50px;
+    width: 30%;
+    float: left;
+    margin-right: 25px;
+}
+
+.card-one:hover{
+    box-shadow: 5px 5px 5px 5px teal;
+}
+
+.card-one p{
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.card-one p:hover{
+    color: teal;
+    transition: 0.5s;
+}
+
+.card-one h3{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.card-one h3:hover{
+    color: teal;
+    transition: 0.5s;
+}
+
+.card-one a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.card-one a:hover{
+    color: teal;
+    transition: 0.5s;
+}
+
+.card-two{
+    background-color: #232323;
+    padding: 50px;
+    width: 30%;
+    float: left;
+    margin-right: 25px;
+}
+
+.card-two:hover{
+    box-shadow: 5px 5px 5px 5px teal;
+}
+
+.card-two p{
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.card-two p:hover{
+    color: teal;
+    transition: 0.5s;
+}
+.card-two h3{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.card-two h3:hover{
+    color: teal;
+    transition: 0.5s;
+}
+
+.card-two a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.card-two a:hover{
+    color: teal;
+    transition: 0.5s;
+}
+
+.card-three{
+    background-color: #232323;
+    padding: 50px;
+    width: 30%;
+    float: left;
+    margin-right: 25px;
+}
+
+.card-three:hover{
+    box-shadow: 5px 5px 5px 5px teal;
+}
+
+
+.card-three p{
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.card-three p:hover{
+    color: teal;
+    transition: 0.5s;
+}
+
+.card-three h3{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.card-three h3:hover{
+    color: teal;
+    transition: 0.5s;
+}
+
+
+.card-three a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.card-three a:hover{
+    color: teal;
+    transition: 0.5s;
+}
+/* end the fifth section */  
+
+
+/* start footer*/
+
+footer{
+    background-color: #161616;
+    color: whitesmoke;
+    padding: 70px;
+    text-align: center;
+}
+
+.foot{
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+
+/* end footer*/  
